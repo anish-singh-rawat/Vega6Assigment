@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 connectToMongoDB();
 
 app.get('/', (req, res) => {
-    res.status(200).send({ message: "Welcome to QuadB tech Group API's" });
+    res.status(200).send({ message: "Welcome to vega6 tech Group API's" });
 });
 
 app.listen(process.env.PORT, () => {
