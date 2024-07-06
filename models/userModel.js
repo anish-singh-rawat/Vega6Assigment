@@ -12,17 +12,12 @@ const UserSchema = mongoose.Schema(
             unique: true,
         },
         password: {
-            type: String,  
-            required: true,
-        },
-        mobile: {
             type: String,
             required: true,
         },
-        isAdmin: {
-            type: Boolean,
-            default: false,
-        },
+        filename: { type: String },
+        imagePath: { type: String },
+        originalname: { type: String }
     },
 );
 
